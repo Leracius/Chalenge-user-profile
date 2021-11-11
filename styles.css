@@ -1,0 +1,69 @@
+body {
+    background: linear-gradient(45deg , hsl(283, 100%, 90%), hsl(36, 100%, 91%) );
+    background-size: contain; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.main {
+    display: flex;
+    justify-content: center;
+
+}
+.main-card {
+    display: flex;
+    justify-content: center;
+    width: 486px;
+    height: 458px;
+
+    box-shadow: 7px 7px 80px gainsboro;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    height: 336px;
+}
+
+.main-card, .card {
+    border-radius: 3em;
+    align-items: center;
+    background: white;
+}
+
+h1, h5 {text-align: center;}
+
+.zoro {
+    border: 10px solid hsl(283, 100%, 90%);
+    border-radius: 2em;
+   
+}
+.button-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+button {
+    border-style: none;
+    text-decoration: none;
+    padding: 0.9em;
+    width: 49%;
+
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+
+    box-shadow: 2px 2px 7px gainsboro;
+    cursor: pointer;
+
+}
+.btn1 {
+    background: linear-gradient(45deg, #fa3967, #fa9639);
+}
+.btn2 {
+    background: #ffedd2;
+}
+
+button:hover {
+    background: skyblue;
+}
